@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0c0c14" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Sillage" />
+  <meta name="description" content="Will's personal fragrance collection" />
+
+  <title>Sillage — Fragrance Collection</title>
+
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Apple touch icons -->
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─── HEADER ──────────────────────────────────────────── -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="header-title">
+        <h1 class="wordmark">Sillage</h1>
+        <p class="tagline">Personal Fragrance Archive</p>
+      </div>
+      <div class="header-meta" id="collectionMeta">
+        <!-- populated by JS: "50 fragrances · 8 owned" -->
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M13.5 13.5L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <input
+        type="search"
+        id="searchInput"
+        class="search-input"
+        placeholder="Search by name or house…"
+        autocomplete="off"
+        autocorrect="off"
+        spellcheck="false"
+      />
+      <button class="search-clear" id="searchClear" aria-label="Clear search" hidden>
+        <svg viewBox="0 0 20 20" fill="none">
+          <path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ─── FILTER BAR ───────────────────────────────────────── -->
+  <nav class="filter-bar" id="filterBar" aria-label="Filters">
+
+    <!-- Status filter -->
+    <div class="filter-group" data-group="status">
+      <span class="filter-group-label">Status</span>
+      <div class="filter-pills">
+        <button class="pill pill--active" data-filter="status" data-value="all">All</button>
+        <button class="pill" data-filter="status" data-value="owned">Owned</button>
+        <button class="pill" data-filter="status" data-value="planning_to_buy">Planning</button>
+        <button class="pill" data-filter="status" data-value="liked_not_owned">Liked</button>
+        <button class="pill" data-filter="status" data-value="considering">Considering</button>
+        <button class="pill" data-filter="status" data-value="to_test">To Test</button>
+        <button class="pill" data-filter="status" data-value="disliked">Disliked</button>
+      </div>
+    </div>
+
+    <!-- Season filter -->
+    <div class="filter-group" data-group="season">
+      <span class="filter-group-label">Season</span>
+      <div class="filter-pills">
+        <button class="pill pill--active" data-filter="season" data-value="all">All</button>
+        <button class="pill" data-filter="season" data-value="spring">Spring</button>
+        <button class="pill" data-filter="season" data-value="summer">Summer</button>
+        <button class="pill" data-filter="season" data-value="fall">Fall</button>
+        <button class="pill" data-filter="season" data-value="winter">Winter</button>
+      </div>
+    </div>
+
+    <!-- Type filter -->
+    <div class="filter-group" data-group="type">
+      <span class="filter-group-label">Type</span>
+      <div class="filter-pills">
+        <button class="pill pill--active" data-filter="type" data-value="all">All</button>
+        <button class="pill" data-filter="type" data-value="niche">Niche</button>
+        <button class="pill" data-filter="type" data-value="designer">Designer</button>
+        <button class="pill" data-filter="type" data-value="clone">Clone</button>
+      </div>
+    </div>
+
+    <!-- Occasion filter -->
+    <div class="filter-group" data-group="occasion">
+      <span class="filter-group-label">Occasion</span>
+      <div class="filter-pills">
+        <button class="pill pill--active" data-filter="occasion" data-value="all">All</button>
+        <button class="pill" data-filter="occasion" data-value="office">Office</button>
+        <button class="pill" data-filter="occasion" data-value="dates">Dates</button>
+        <button class="pill" data-filter="occasion" data-value="night_out">Night Out</button>
+        <button class="pill" data-filter="occasion" data-value="casual">Casual</button>
+        <button class="pill" data-filter="occasion" data-value="events">Events</button>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- ─── RESULTS COUNT ────────────────────────────────────── -->
+  <div class="results-bar" id="resultsBar">
+    <span id="resultsCount"></span>
+    <button class="reset-btn" id="resetFilters" hidden>Reset filters</button>
+  </div>
+
+  <!-- ─── CARD GRID ────────────────────────────────────────── -->
+  <main class="card-grid" id="cardGrid" aria-live="polite">
+    <!-- Cards injected by JS -->
+    <div class="loading-state" id="loadingState">
+      <div class="loading-spinner"></div>
+      <p>Loading collection…</p>
+    </div>
+  </main>
+
+  <!-- ─── EMPTY STATE ──────────────────────────────────────── -->
+  <div class="empty-state" id="emptyState" hidden>
+    <svg viewBox="0 0 64 64" fill="none" class="empty-icon">
+      <path d="M32 8C20 8 12 18 12 28c0 12 20 28 20 28s20-16 20-28c0-10-8-20-20-20z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+      <circle cx="32" cy="27" r="5" stroke="currentColor" stroke-width="1.5"/>
+    </svg>
+    <p>No fragrances match your filters.</p>
+    <button class="reset-btn" id="resetFilters2">Reset filters</button>
+  </div>
+
+  <!-- ─── CARD DETAIL DRAWER ───────────────────────────────── -->
+  <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+  <aside class="detail-drawer" id="detailDrawer" aria-label="Fragrance detail" aria-hidden="true">
+    <button class="drawer-close" id="drawerClose" aria-label="Close">
+      <svg viewBox="0 0 20 20" fill="none">
+        <path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <div class="drawer-content" id="drawerContent">
+      <!-- populated by JS -->
+    </div>
+  </aside>
+
+  <script src="app.js" defer></script>
+  <script>
+    // Register service worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .catch(err => console.warn('SW registration failed:', err));
+      });
+    }
+  </script>
+</body>
+</html>
