@@ -1,0 +1,1283 @@
+{
+  "meta": {
+    "owner": "Will",
+    "lastUpdated": "2026-05-29",
+    "version": "1.0",
+    "description": "Complete fragrance profile — owned, liked, to test, planning to buy, avoid"
+  },
+  "fragrances": [
+
+    {
+      "id": 1,
+      "name": "Naxos",
+      "house": "Xerjoff",
+      "line": null,
+      "type": "niche",
+      "concentration": "EDP",
+      "status": "owned",
+      "price_eur": 230,
+      "size_ml": 100,
+      "streetRarity": "very_rare",
+      "rating": 5,
+      "notes": {
+        "top": ["Tobacco", "Lavender", "Bergamot"],
+        "heart": ["Honey", "Ylang Ylang", "Iris"],
+        "base": ["Vanilla", "Tonka Bean", "Musk"]
+      },
+      "accords": ["Tobacco", "Vanilla", "Honey", "Woody", "Oriental"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["dates", "night_out", "events"],
+      "timeOfDay": ["evening", "night"],
+      "role": "Evening anchor — seductive tobacco-honey-vanilla at niche level",
+      "notes_personal": "One of his strongest bottles. Likes tobacco when sweet and honeyed."
+    },
+
+    {
+      "id": 2,
+      "name": "Layton",
+      "house": "Parfums de Marly",
+      "line": null,
+      "type": "niche",
+      "concentration": "EDP",
+      "status": "owned",
+      "price_eur": 195,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": 5,
+      "notes": {
+        "top": ["Apple", "Bergamot", "Pepper"],
+        "heart": ["Geranium", "Cardamom", "Violet"],
+        "base": ["Vanilla", "Sandalwood", "Guaiac Wood"]
+      },
+      "accords": ["Apple", "Vanilla", "Spicy", "Woody", "Oriental"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["dates", "events", "night_out"],
+      "timeOfDay": ["evening", "night"],
+      "role": "Most versatile evening niche piece. High compliment getter.",
+      "notes_personal": "Apple-spice-vanilla crowd-pleaser. One of his favourites."
+    },
+
+    {
+      "id": 3,
+      "name": "Baccarat Rouge 540",
+      "house": "Maison Francis Kurkdjian",
+      "line": null,
+      "type": "niche",
+      "concentration": "EDP",
+      "status": "owned",
+      "price_eur": 295,
+      "size_ml": 70,
+      "streetRarity": "rare",
+      "rating": 5,
+      "notes": {
+        "top": ["Saffron", "Jasmine"],
+        "heart": ["Amberwood", "Ambergris"],
+        "base": ["Fir Resin", "Cedar"]
+      },
+      "accords": ["Amber", "Woody", "Floral", "Metallic", "Sweet"],
+      "seasons": ["all"],
+      "occasions": ["special_occasions", "events"],
+      "timeOfDay": ["evening", "night"],
+      "role": "Statement signature piece. Save for occasions that deserve it.",
+      "notes_personal": "Metallic amber — distinctive, polarising, iconic."
+    },
+
+    {
+      "id": 4,
+      "name": "Bleu de Chanel",
+      "house": "Chanel",
+      "line": null,
+      "type": "designer",
+      "concentration": "EDP",
+      "status": "owned",
+      "price_eur": 140,
+      "size_ml": 100,
+      "streetRarity": "moderate",
+      "rating": 4,
+      "notes": {
+        "top": ["Citrus", "Grapefruit", "Mint"],
+        "heart": ["Ginger", "Nutmeg", "Jasmine"],
+        "base": ["Labdanum", "Sandalwood", "Cedar", "White Musk"]
+      },
+      "accords": ["Woody", "Citrus", "Fresh", "Aromatic"],
+      "seasons": ["spring", "summer", "fall"],
+      "occasions": ["office", "daytime", "smart_casual"],
+      "timeOfDay": ["day", "evening"],
+      "role": "Most versatile bottle. Reliable daytime and warm nights.",
+      "notes_personal": "Workhorse of the collection. Works almost anywhere."
+    },
+
+    {
+      "id": 5,
+      "name": "Emporio Armani",
+      "house": "Giorgio Armani",
+      "line": "Emporio Armani",
+      "type": "designer",
+      "concentration": "EDT",
+      "status": "owned",
+      "price_eur": 65,
+      "size_ml": 100,
+      "streetRarity": "moderate",
+      "rating": 3,
+      "notes": {
+        "top": ["Bergamot", "Lemon"],
+        "heart": ["Vetiver", "Cedar"],
+        "base": ["White Musk", "Sandalwood"]
+      },
+      "accords": ["Fresh", "Woody", "Clean"],
+      "seasons": ["all"],
+      "occasions": ["office", "daily"],
+      "timeOfDay": ["day"],
+      "role": "Low-effort daily office rotation. Grey/silver bottle.",
+      "notes_personal": "Being outgrown. Functional backup piece."
+    },
+
+    {
+      "id": 6,
+      "name": "Legend",
+      "house": "Montblanc",
+      "line": null,
+      "type": "designer",
+      "concentration": "EDT",
+      "status": "owned",
+      "price_eur": 55,
+      "size_ml": 100,
+      "streetRarity": "moderate",
+      "rating": 3,
+      "notes": {
+        "top": ["Bergamot", "Lavender"],
+        "heart": ["Oakmoss", "Geranium"],
+        "base": ["Sandalwood", "Coumarin", "Musk"]
+      },
+      "accords": ["Fresh", "Aromatic", "Woody", "Fougere"],
+      "seasons": ["all"],
+      "occasions": ["office", "daily"],
+      "timeOfDay": ["day"],
+      "role": "Safe inoffensive office fougere. Entry level.",
+      "notes_personal": "Outgrown relative to rest of collection."
+    },
+
+    {
+      "id": 7,
+      "name": "Boss In Motion",
+      "house": "Hugo Boss",
+      "line": null,
+      "type": "designer",
+      "concentration": "EDT",
+      "status": "owned",
+      "price_eur": 55,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": 3,
+      "notes": {
+        "top": ["Ginger", "Cardamom", "Citrus"],
+        "heart": ["Sage", "Hedione"],
+        "base": ["Sandalwood", "Musk", "Cedar"]
+      },
+      "accords": ["Fresh", "Woody", "Spicy", "Aromatic"],
+      "seasons": ["all"],
+      "occasions": ["office", "daily"],
+      "timeOfDay": ["day"],
+      "role": "Slightly warmer daily rotation than Legend.",
+      "notes_personal": "Ginger-cardamom gives it more warmth than typical fresh masculines."
+    },
+
+    {
+      "id": 8,
+      "name": "Weekend for Men",
+      "house": "Burberry",
+      "line": null,
+      "type": "designer",
+      "concentration": "EDT",
+      "status": "owned",
+      "price_eur": 40,
+      "size_ml": 30,
+      "streetRarity": "moderate",
+      "rating": 3,
+      "notes": {
+        "top": ["Bergamot", "Cedar"],
+        "heart": ["Green Notes"],
+        "base": ["Sandalwood", "White Musk"]
+      },
+      "accords": ["Fresh", "Woody", "Clean", "Green"],
+      "seasons": ["spring", "summer"],
+      "occasions": ["gym", "casual", "summer_daily"],
+      "timeOfDay": ["day"],
+      "role": "Summer casual and gym. Airport buy, small bottle.",
+      "notes_personal": "Cheap airport grab. Functional not exciting."
+    },
+
+    {
+      "id": 9,
+      "name": "Angels' Share Paradis",
+      "house": "Kilian Paris",
+      "line": null,
+      "type": "niche",
+      "concentration": "EDP",
+      "status": "liked_not_owned",
+      "price_eur": 260,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": 4,
+      "notes": {
+        "top": ["Cognac", "Apple", "Cinnamon"],
+        "heart": ["Vanilla", "Oakwood"],
+        "base": ["Sandalwood", "Musk"]
+      },
+      "accords": ["Boozy", "Vanilla", "Spicy", "Woody", "Oriental"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["dates", "evenings"],
+      "timeOfDay": ["evening", "night"],
+      "role": "Tested and liked. Future buy.",
+      "notes_personal": "Boozy cognac-vanilla. Confirms love of sweet-boozy orientals."
+    },
+
+    {
+      "id": 10,
+      "name": "Althaïr",
+      "house": "Parfums de Marly",
+      "line": null,
+      "type": "niche",
+      "concentration": "EDP",
+      "status": "liked_not_owned",
+      "price_eur": 195,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": 4,
+      "notes": {
+        "top": ["Bergamot", "Cardamom", "Cinnamon"],
+        "heart": ["Bourbon Vanilla", "Orange Blossom"],
+        "base": ["Praline", "Tonka Bean", "Ambroxan", "Guaiac Wood"]
+      },
+      "accords": ["Vanilla", "Praline", "Spicy", "Gourmand", "Woody"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["dates", "evenings", "smart_casual"],
+      "timeOfDay": ["evening"],
+      "role": "Tested and liked. High priority buy.",
+      "notes_personal": "Almond-vanilla-praline. Connects to why he liked Guerlain Forte."
+    },
+
+    {
+      "id": 11,
+      "name": "Eros Flame",
+      "house": "Versace",
+      "line": "Eros",
+      "type": "designer",
+      "concentration": "EDP",
+      "status": "liked_not_owned",
+      "price_eur": 85,
+      "size_ml": 100,
+      "streetRarity": "moderate",
+      "rating": 4,
+      "notes": {
+        "top": ["Lemon", "Geranium", "Pepper"],
+        "heart": ["Rosewood", "Orange Blossom"],
+        "base": ["Amber", "Sandalwood", "Vanilla"]
+      },
+      "accords": ["Spicy", "Amber", "Woody", "Citrus", "Warm"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["dates", "evenings", "night_out"],
+      "timeOfDay": ["evening", "night"],
+      "role": "Tested and liked. Autumn/winter casual evening buy.",
+      "notes_personal": "Red bottle. Warm spicy-amber Versace. Planning to buy."
+    },
+
+    {
+      "id": 12,
+      "name": "Eros Najim",
+      "house": "Versace",
+      "line": "Eros",
+      "type": "designer",
+      "concentration": "Parfum",
+      "status": "liked_not_owned",
+      "price_eur": 75,
+      "size_ml": 50,
+      "streetRarity": "very_rare",
+      "rating": 4,
+      "notes": {
+        "top": ["Mandarin", "Saffron"],
+        "heart": ["Cardamom", "Clary Sage", "Oud"],
+        "base": ["Caramel", "Tonka Bean", "Patchouli", "Vetiver", "Incense"]
+      },
+      "accords": ["Oriental", "Oud", "Caramel", "Spicy", "Amber"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["evenings", "dates", "night_out"],
+      "timeOfDay": ["evening", "night"],
+      "role": "Travel retail / Middle Eastern exclusive. Watch for it.",
+      "notes_personal": "Confirms oud works when sweet-caramel context. Very liked."
+    },
+
+    {
+      "id": 13,
+      "name": "Dior Homme Intense",
+      "house": "Christian Dior",
+      "line": "Dior Homme",
+      "type": "designer",
+      "concentration": "EDP",
+      "status": "liked_not_owned",
+      "price_eur": 105,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": 4,
+      "notes": {
+        "top": ["Iris", "Lavender"],
+        "heart": ["Cacao", "Ambrette"],
+        "base": ["Vetiver", "Virginia Cedar"]
+      },
+      "accords": ["Iris", "Powdery", "Woody", "Sweet", "Dark"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["evenings", "dates", "smart_casual"],
+      "timeOfDay": ["evening"],
+      "role": "Liked drydown. Dislikes opening. Confirmed buy.",
+      "notes_personal": "Spray before leaving — opening is polarising iris. Drydown is beautiful."
+    },
+
+    {
+      "id": 14,
+      "name": "London for Men",
+      "house": "Burberry",
+      "line": null,
+      "type": "designer",
+      "concentration": "EDT",
+      "status": "liked_not_owned",
+      "price_eur": 70,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": 4,
+      "notes": {
+        "top": ["Cardamom", "Bergamot", "Black Pepper"],
+        "heart": ["Tobacco", "Leather", "Cedarwood"],
+        "base": ["Sandalwood", "Vetiver", "Musk"]
+      },
+      "accords": ["Tobacco", "Leather", "Spicy", "Woody", "Oriental"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["evenings", "dates", "casual"],
+      "timeOfDay": ["evening"],
+      "role": "Old favourite. Airport hunt — discontinued.",
+      "notes_personal": "Spiced leather-tobacco oriental. Fits DNA perfectly. Rebuy if found."
+    },
+
+    {
+      "id": 15,
+      "name": "Dior Homme Sport",
+      "house": "Christian Dior",
+      "line": "Dior Homme",
+      "type": "designer",
+      "concentration": "EDT",
+      "status": "planning_to_buy",
+      "price_eur": 75,
+      "size_ml": 100,
+      "streetRarity": "moderate",
+      "rating": 4,
+      "notes": {
+        "top": ["Citrus", "Grapefruit"],
+        "heart": ["Cardamom", "Iris Wood"],
+        "base": ["Vetiver", "White Musk", "Cedar"]
+      },
+      "accords": ["Fresh", "Woody", "Clean", "Citrus", "Spicy"],
+      "seasons": ["spring", "summer"],
+      "occasions": ["office", "daily", "summer_daily"],
+      "timeOfDay": ["day"],
+      "role": "Confirmed buy. Summer office daily driver.",
+      "notes_personal": "Tested twice, loved. Primary summer/office buy."
+    },
+
+    {
+      "id": 16,
+      "name": "YSL Y Iced Cologne",
+      "house": "Yves Saint Laurent",
+      "line": "Y",
+      "type": "designer",
+      "concentration": "EDT Intense",
+      "status": "liked_not_owned",
+      "price_eur": 90,
+      "size_ml": 100,
+      "streetRarity": "moderate",
+      "rating": 3,
+      "notes": {
+        "top": ["Iced Mint", "Ginger"],
+        "heart": ["Blue Sage"],
+        "base": ["Patchouli", "Ambroxan", "Musk"]
+      },
+      "accords": ["Fresh", "Icy", "Aromatic", "Woody"],
+      "seasons": ["spring", "summer"],
+      "occasions": ["office", "daily"],
+      "timeOfDay": ["day"],
+      "role": "Currently testing. Summer office option alongside DHS.",
+      "notes_personal": "Liked with small tester. Pairs with DHS for summer rotation."
+    },
+
+    {
+      "id": 17,
+      "name": "The One Parfum",
+      "house": "Dolce & Gabbana",
+      "line": "The One",
+      "type": "designer",
+      "concentration": "Parfum",
+      "status": "planning_to_buy",
+      "price_eur": 83,
+      "size_ml": 100,
+      "streetRarity": "moderate",
+      "rating": 4,
+      "notes": {
+        "top": ["Basil", "Ginger", "Citrus"],
+        "heart": ["Cardamom", "Orange Blossom"],
+        "base": ["Tobacco", "Amber", "Cedar"]
+      },
+      "accords": ["Tobacco", "Amber", "Spicy", "Woody", "Oriental"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["evenings", "dates", "casual"],
+      "timeOfDay": ["evening"],
+      "role": "Evening rotation workhorse. Cheaper alternative to Layton/Naxos for casual nights.",
+      "notes_personal": "Tobacco-amber-cardamom DNA. Planning to buy."
+    },
+
+    {
+      "id": 18,
+      "name": "Penhaligon's Constance",
+      "house": "Penhaligon's",
+      "line": null,
+      "type": "niche",
+      "concentration": "EDP",
+      "status": "liked_not_owned",
+      "price_eur": 180,
+      "size_ml": 100,
+      "streetRarity": "very_rare",
+      "rating": 4,
+      "notes": {
+        "top": [],
+        "heart": [],
+        "base": []
+      },
+      "accords": ["Warm", "Sweet", "Sophisticated"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["evenings", "smart_casual"],
+      "timeOfDay": ["evening"],
+      "role": "Tested on skin multiple times. Warm sweet sophisticated. Wants to identify and buy.",
+      "notes_personal": "Liked every time on skin. Very rare on street. Needs ID confirmed in store."
+    },
+
+    {
+      "id": 19,
+      "name": "L'Homme Idéal Cologne Forte",
+      "house": "Guerlain",
+      "line": "L'Homme Idéal",
+      "type": "designer",
+      "concentration": "EDP",
+      "status": "considering",
+      "price_eur": 97,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": 3,
+      "notes": {
+        "top": ["Grapefruit", "Lemon Peel"],
+        "heart": ["Almond"],
+        "base": ["Vetiver", "Incense", "Cedar"]
+      },
+      "accords": ["Fresh", "Almond", "Woody", "Incense", "Citrus"],
+      "seasons": ["spring", "summer"],
+      "occasions": ["summer_daytime", "casual_weekends"],
+      "timeOfDay": ["day"],
+      "role": "Limited edition. Liked in store, tested on skin. Still deciding.",
+      "notes_personal": "Concern: limited edition, can't rebuy. Almond-incense drydown connects to Althaïr love."
+    },
+
+    {
+      "id": 20,
+      "name": "L'Art et la Matière Fig",
+      "house": "Guerlain",
+      "line": "L'Art et la Matière",
+      "type": "niche",
+      "concentration": "EDP",
+      "status": "considering",
+      "price_eur": 350,
+      "size_ml": 100,
+      "streetRarity": "very_rare",
+      "rating": 4,
+      "notes": {
+        "top": ["Fig"],
+        "heart": [],
+        "base": []
+      },
+      "accords": ["Fig", "Green", "Woody"],
+      "seasons": ["all"],
+      "occasions": ["signature", "special_occasions"],
+      "timeOfDay": ["day", "evening"],
+      "role": "Loved it. Needs name identified in store. ~€350.",
+      "notes_personal": "Completely unique in collection. No fig fragrance owned. Go back to store to ID."
+    },
+
+    {
+      "id": 21,
+      "name": "Replica Jazz Club",
+      "house": "Maison Margiela",
+      "line": "Replica",
+      "type": "designer",
+      "concentration": "EDT",
+      "status": "disliked",
+      "price_eur": 130,
+      "size_ml": 100,
+      "streetRarity": "moderate",
+      "rating": 1,
+      "notes": {
+        "top": ["Pink Pepper", "Vetiver"],
+        "heart": ["Clary Sage", "Rum"],
+        "base": ["Tobacco", "Vanilla", "Musk"]
+      },
+      "accords": ["Smoky", "Tobacco", "Woody", "Vetiver", "Rum"],
+      "seasons": ["fall", "winter"],
+      "occasions": [],
+      "timeOfDay": [],
+      "role": "Bought, hated, gave away.",
+      "notes_personal": "KEY INSIGHT: Likes tobacco sweet/honeyed (Naxos). Hates tobacco dry/smoky/vetiver-heavy. Hard avoid."
+    },
+
+    {
+      "id": 22,
+      "name": "Acqua di Gio Profondo",
+      "house": "Giorgio Armani",
+      "line": "Acqua di Gio",
+      "type": "designer",
+      "concentration": "EDP",
+      "status": "disliked",
+      "price_eur": 95,
+      "size_ml": 100,
+      "streetRarity": "common",
+      "rating": 1,
+      "notes": {
+        "top": ["Bergamot", "Green Mandarin"],
+        "heart": ["Aquatic Notes", "Cypress"],
+        "base": ["Mineral Notes", "Patchouli", "Musk"]
+      },
+      "accords": ["Marine", "Aquatic", "Fresh", "Woody"],
+      "seasons": ["spring", "summer"],
+      "occasions": [],
+      "timeOfDay": [],
+      "role": "Disliked. Marine/aquatic not his thing confirmed.",
+      "notes_personal": "Confirms no aquatic/marine fragrances."
+    },
+
+    {
+      "id": 23,
+      "name": "Gentleman Society Sport",
+      "house": "Givenchy",
+      "line": "Gentleman",
+      "type": "designer",
+      "concentration": "EDT",
+      "status": "disliked",
+      "price_eur": 85,
+      "size_ml": 100,
+      "streetRarity": "moderate",
+      "rating": 2,
+      "notes": {
+        "top": ["Bergamot"],
+        "heart": ["Iris"],
+        "base": ["Cedar", "Musk"]
+      },
+      "accords": ["Fresh", "Woody", "Aromatic"],
+      "seasons": ["spring", "summer"],
+      "occasions": [],
+      "timeOfDay": [],
+      "role": "Mixed feelings. Nostalgia trigger. Avoid.",
+      "notes_personal": "Liked opening but triggered nostalgia — emotional association. Avoid."
+    },
+
+    {
+      "id": 24,
+      "name": "Eau de Basilic Pourpre",
+      "house": "Hermès",
+      "line": "Jardins",
+      "type": "designer",
+      "concentration": "EDC",
+      "status": "disliked",
+      "price_eur": 85,
+      "size_ml": 100,
+      "streetRarity": "very_rare",
+      "rating": 2,
+      "notes": {
+        "top": ["Basil", "Purple Basil"],
+        "heart": ["Herbal Notes"],
+        "base": ["White Musk"]
+      },
+      "accords": ["Herbal", "Green", "Fresh", "Basil"],
+      "seasons": ["spring", "summer"],
+      "occasions": [],
+      "timeOfDay": [],
+      "role": "Liked opening only. Too herbal and weak after. Not worth it.",
+      "notes_personal": "Confirms herbal-heavy direction doesn't sustain interest."
+    },
+
+    {
+      "id": 25,
+      "name": "Ani",
+      "house": "Nishane",
+      "line": null,
+      "type": "niche",
+      "concentration": "Extrait",
+      "status": "to_test",
+      "price_eur": 240,
+      "size_ml": 100,
+      "streetRarity": "very_rare",
+      "rating": null,
+      "notes": {
+        "top": ["Pepper", "Pink Pepper"],
+        "heart": ["Iris", "Patchouli"],
+        "base": ["Amber", "Vanilla", "Sandalwood", "Musk"]
+      },
+      "accords": ["Amber", "Iris", "Spicy", "Woody", "Vanilla"],
+      "seasons": ["all"],
+      "occasions": ["dates", "evenings", "office", "smart_casual"],
+      "timeOfDay": ["day", "evening"],
+      "role": "TOP PRIORITY. Most versatile niche pick. Zero overlap with collection.",
+      "notes_personal": "Single strongest recommendation. Warm amber-iris. 12h+ longevity."
+    },
+
+    {
+      "id": 26,
+      "name": "Side Effect",
+      "house": "Initio Parfums Privés",
+      "line": "Carnal Blends",
+      "type": "niche",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 220,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Rum", "Cinnamon"],
+        "heart": ["Tobacco", "Orris Root"],
+        "base": ["Vanilla", "Vetiver", "Sandalwood"]
+      },
+      "accords": ["Rum", "Tobacco", "Vanilla", "Spicy", "Woody"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["night_out", "dates", "events"],
+      "timeOfDay": ["evening", "night"],
+      "role": "Must test. Naxos darker cousin. Beast performance.",
+      "notes_personal": "Rum-tobacco-vetiver. Different from Naxos — drier and rougher. 10-14h."
+    },
+
+    {
+      "id": 27,
+      "name": "Gris Charnel Extrait",
+      "house": "BDK Parfums",
+      "line": null,
+      "type": "niche",
+      "concentration": "Extrait",
+      "status": "to_test",
+      "price_eur": 195,
+      "size_ml": 100,
+      "streetRarity": "very_rare",
+      "rating": null,
+      "notes": {
+        "top": ["Cardamom", "Saffron"],
+        "heart": ["Iris", "Rose"],
+        "base": ["Sandalwood", "Vanilla", "Musk"]
+      },
+      "accords": ["Spicy", "Woody", "Iris", "Vanilla", "Floral"],
+      "seasons": ["fall", "winter", "spring"],
+      "occasions": ["dates", "evenings", "smart_casual"],
+      "timeOfDay": ["evening"],
+      "role": "Hidden gem. Bridge scent between office and heavy orientals.",
+      "notes_personal": "Close-range compliment magnet. Intimate and sophisticated."
+    },
+
+    {
+      "id": 28,
+      "name": "Erba Pura",
+      "house": "Xerjoff",
+      "line": null,
+      "type": "niche",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 195,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Sicilian Citrus", "Bergamot"],
+        "heart": ["Fruits"],
+        "base": ["Amber", "Vanilla", "Sandalwood", "White Musk"]
+      },
+      "accords": ["Citrus", "Amber", "Vanilla", "Fresh", "Sweet"],
+      "seasons": ["spring", "summer"],
+      "occasions": ["warm_days", "casual_weekends", "terraces"],
+      "timeOfDay": ["day", "evening"],
+      "role": "Summer niche option. Same Xerjoff DNA as Naxos. Fills summer gap.",
+      "notes_personal": "Zero overlap with collection. Nothing for Barcelona summer currently."
+    },
+
+    {
+      "id": 29,
+      "name": "Hacivat",
+      "house": "Nishane",
+      "line": null,
+      "type": "niche",
+      "concentration": "Extrait",
+      "status": "to_test",
+      "price_eur": 235,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Pineapple", "Bergamot"],
+        "heart": ["Patchouli"],
+        "base": ["Cedar", "Vetiver", "Musk"]
+      },
+      "accords": ["Fruity", "Woody", "Fresh", "Patchouli"],
+      "seasons": ["spring", "summer", "fall"],
+      "occasions": ["daytime", "office", "casual_evening"],
+      "timeOfDay": ["day", "evening"],
+      "role": "3-season workhorse. Aventus alternative without smoke.",
+      "notes_personal": "Fresher than usual DNA. Test before buying. 12h+ longevity."
+    },
+
+    {
+      "id": 30,
+      "name": "Reflection Man",
+      "house": "Amouage",
+      "line": null,
+      "type": "niche",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 220,
+      "size_ml": 100,
+      "streetRarity": "very_rare",
+      "rating": null,
+      "notes": {
+        "top": ["Neroli", "Bergamot"],
+        "heart": ["Rose", "Jasmine"],
+        "base": ["Sandalwood", "Vetiver", "Musk", "Incense"]
+      },
+      "accords": ["Floral", "Woody", "Fresh", "Aromatic", "Musk"],
+      "seasons": ["spring", "summer", "fall"],
+      "occasions": ["office", "smart_casual", "daytime"],
+      "timeOfDay": ["day"],
+      "role": "Elevated office/daytime upgrade at niche level.",
+      "notes_personal": "Creamy floral-woody. Fills office gap. Zero overlap."
+    },
+
+    {
+      "id": 31,
+      "name": "Grand Soir",
+      "house": "Maison Francis Kurkdjian",
+      "line": null,
+      "type": "niche",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 250,
+      "size_ml": 70,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Benzoin"],
+        "heart": ["Amber", "Labdanum"],
+        "base": ["Vanilla", "Tonka Bean", "Musk"]
+      },
+      "accords": ["Amber", "Vanilla", "Resinous", "Warm", "Sweet"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["formal_evenings", "upscale_dinners"],
+      "timeOfDay": ["evening", "night"],
+      "role": "Test with caution — mixed MFK history. Different from rest of MFK line.",
+      "notes_personal": "Warmer and slower than BR540. Try in-store only given MFK history."
+    },
+
+    {
+      "id": 32,
+      "name": "Boss Bottled Elixir",
+      "house": "Hugo Boss",
+      "line": "Boss Bottled",
+      "type": "designer",
+      "concentration": "Parfum Intense",
+      "status": "to_test",
+      "price_eur": 66,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Geranium", "Cardamom"],
+        "heart": ["Warm Spices"],
+        "base": ["Incense", "Amber", "Vetiver"]
+      },
+      "accords": ["Spicy", "Woody", "Oriental", "Amber", "Aromatic"],
+      "seasons": ["spring", "fall", "all"],
+      "occasions": ["office", "daily", "smart_casual"],
+      "timeOfDay": ["day", "evening"],
+      "role": "Best value daily upgrade. ~€65 exceptional price.",
+      "notes_personal": "Woody-spicy-oriental. Geranium opening sharp 10min then excellent drydown."
+    },
+
+    {
+      "id": 33,
+      "name": "Le Male Elixir",
+      "house": "Jean Paul Gaultier",
+      "line": "Le Male",
+      "type": "designer",
+      "concentration": "Parfum",
+      "status": "to_test",
+      "price_eur": 82,
+      "size_ml": 125,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Cardamom", "Lavender"],
+        "heart": ["Resinous Notes"],
+        "base": ["Vanilla", "Tonka Bean", "Woody Notes"]
+      },
+      "accords": ["Lavender", "Vanilla", "Resinous", "Spicy", "Sweet"],
+      "seasons": ["all"],
+      "occasions": ["office", "daily", "smart_casual"],
+      "timeOfDay": ["day", "evening"],
+      "role": "Best daily slot upgrade recommendation. Niche-quality performance.",
+      "notes_personal": "Darker more addictive than original Le Male. 12h+ longevity."
+    },
+
+    {
+      "id": 34,
+      "name": "Polo 67 Extreme",
+      "house": "Ralph Lauren",
+      "line": "Polo 67",
+      "type": "designer",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 90,
+      "size_ml": 125,
+      "streetRarity": "very_rare",
+      "rating": null,
+      "notes": {
+        "top": ["Bergamot", "Lemon", "Cardamom"],
+        "heart": ["Pineapple", "Clary Sage", "Geranium Bourbon"],
+        "base": ["Leather", "Cedar", "Vetiver", "Sandalwood"]
+      },
+      "accords": ["Pineapple", "Leather", "Woody", "Spicy", "Citrus"],
+      "seasons": ["spring", "summer", "fall"],
+      "occasions": ["daytime", "office", "smart_casual"],
+      "timeOfDay": ["day", "evening"],
+      "role": "2026 release. Pineapple-leather-cedar. Very low street presence.",
+      "notes_personal": "Available Primor €89.95. Priority test — pineapple+leather unusual combination."
+    },
+
+    {
+      "id": 35,
+      "name": "Narciso For Him Bleu Noir",
+      "house": "Narciso Rodriguez",
+      "line": "For Him",
+      "type": "designer",
+      "concentration": "Parfum",
+      "status": "to_test",
+      "price_eur": 69,
+      "size_ml": 100,
+      "streetRarity": "very_rare",
+      "rating": null,
+      "notes": {
+        "top": ["Cardamom", "Grapefruit"],
+        "heart": ["Vetiver", "Iso E Super"],
+        "base": ["Musk", "Cedar", "Woody Musks"]
+      },
+      "accords": ["Musky", "Woody", "Spicy", "Fresh", "Clean"],
+      "seasons": ["spring", "summer", "fall"],
+      "occasions": ["office", "daytime", "smart_casual"],
+      "timeOfDay": ["day"],
+      "role": "Similar direction to Bleu de Chanel but rarer. Priority test.",
+      "notes_personal": "Available Primor €68.95. Note: Parfum not EDP — expect more powdery."
+    },
+
+    {
+      "id": 36,
+      "name": "H24",
+      "house": "Hermès",
+      "line": null,
+      "type": "designer",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 75,
+      "size_ml": 100,
+      "streetRarity": "very_rare",
+      "rating": null,
+      "notes": {
+        "top": ["Clary Sage", "Narcissus"],
+        "heart": ["Hedione", "Sage"],
+        "base": ["Cedar", "Woody Musks"]
+      },
+      "accords": ["Green", "Herbal", "Woody", "Fresh", "Unique"],
+      "seasons": ["spring", "summer", "fall"],
+      "occasions": ["office", "daytime", "smart_casual"],
+      "timeOfDay": ["day"],
+      "role": "Most unique on summer list. Strongest DHS alternative candidate.",
+      "notes_personal": "Available Primor €74.85. Modern herbal-woody — smells like nothing else."
+    },
+
+    {
+      "id": 37,
+      "name": "Gentleman Boisée",
+      "house": "Givenchy",
+      "line": "Gentleman",
+      "type": "designer",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 85,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Bergamot", "Pepper"],
+        "heart": ["Iris", "Patchouli"],
+        "base": ["Cedar", "Vanilla", "Vetiver"]
+      },
+      "accords": ["Iris", "Woody", "Spicy", "Patchouli", "Vanilla"],
+      "seasons": ["fall", "winter", "spring"],
+      "occasions": ["office", "smart_casual", "casual_dates"],
+      "timeOfDay": ["day", "evening"],
+      "role": "Iris gap filler. Woodier darker than DHI.",
+      "notes_personal": "Alternative to Dior Homme Intense if woodier iris preferred."
+    },
+
+    {
+      "id": 38,
+      "name": "Gentleman Réserve Privée",
+      "house": "Givenchy",
+      "line": "Gentleman",
+      "type": "designer",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 85,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Bergamot", "Cardamom"],
+        "heart": ["Iris", "Bourbon"],
+        "base": ["Amber", "Warm Woods", "Vanilla"]
+      },
+      "accords": ["Iris", "Amber", "Woody", "Warm", "Spicy"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["smart_casual", "evenings"],
+      "timeOfDay": ["day", "evening"],
+      "role": "Elevated smart casual. Iris-bourbon-amber-warm woods.",
+      "notes_personal": "More of a warm-season elevated piece."
+    },
+
+    {
+      "id": 39,
+      "name": "Eros Parfum",
+      "house": "Versace",
+      "line": "Eros",
+      "type": "designer",
+      "concentration": "Parfum",
+      "status": "to_test",
+      "price_eur": 80,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Lemon"],
+        "heart": ["Amber"],
+        "base": ["Vanilla", "Tonka Bean", "Cedar", "Vetiver"]
+      },
+      "accords": ["Vanilla", "Amber", "Woody", "Sweet"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["night_out", "dates", "evenings"],
+      "timeOfDay": ["evening", "night"],
+      "role": "Rotation piece for casual nights. Overlaps evening collection.",
+      "notes_personal": "Much better than original Eros EDT. Rotation filler."
+    },
+
+    {
+      "id": 40,
+      "name": "1 Million Parfum",
+      "house": "Paco Rabanne",
+      "line": "1 Million",
+      "type": "designer",
+      "concentration": "Parfum",
+      "status": "to_test",
+      "price_eur": 80,
+      "size_ml": 100,
+      "streetRarity": "moderate",
+      "rating": null,
+      "notes": {
+        "top": ["Cinnamon", "Pepper"],
+        "heart": ["Leather", "Myrrh"],
+        "base": ["Tobacco", "Amber", "Patchouli"]
+      },
+      "accords": ["Leather", "Spicy", "Amber", "Tobacco", "Woody"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["night_out", "clubbing"],
+      "timeOfDay": ["evening", "night"],
+      "role": "Introduces leather. Night-out rotation piece.",
+      "notes_personal": "Test first — leather can surprise. Medium fit."
+    },
+
+    {
+      "id": 41,
+      "name": "La Nuit de L'Homme Bleu Électrique",
+      "house": "Yves Saint Laurent",
+      "line": "La Nuit de L'Homme",
+      "type": "designer",
+      "concentration": "EDT",
+      "status": "to_test",
+      "price_eur": 80,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Cardamom", "White Pepper"],
+        "heart": ["Lavender"],
+        "base": ["Cedar", "Vetiver", "Sandalwood"]
+      },
+      "accords": ["Spicy", "Aromatic", "Woody", "Dry"],
+      "seasons": ["spring", "fall"],
+      "occasions": ["office", "smart_casual", "casual_evenings"],
+      "timeOfDay": ["day", "evening"],
+      "role": "Dry aromatic counterpoint. Collection is sweet-heavy — this balances it.",
+      "notes_personal": "Deliberately included as counterpoint to sweet collection."
+    },
+
+    {
+      "id": 42,
+      "name": "Armani Code Parfum",
+      "house": "Giorgio Armani",
+      "line": "Armani Code",
+      "type": "designer",
+      "concentration": "Parfum",
+      "status": "to_test",
+      "price_eur": 95,
+      "size_ml": 110,
+      "streetRarity": "moderate",
+      "rating": null,
+      "notes": {
+        "top": ["Bergamot", "Apple"],
+        "heart": ["Olive Wood", "Cardamom"],
+        "base": ["Tonka Bean", "Tobacco", "Vanilla"]
+      },
+      "accords": ["Tonka", "Tobacco", "Woody", "Sweet", "Spicy"],
+      "seasons": ["fall", "winter", "spring"],
+      "occasions": ["dates", "evenings", "smart_casual"],
+      "timeOfDay": ["day", "evening"],
+      "role": "Tonka-tobacco-vanilla designer. Overlaps evening collection slightly.",
+      "notes_personal": "Good enough to sit alongside niche without embarrassment."
+    },
+
+    {
+      "id": 43,
+      "name": "D&G K",
+      "house": "Dolce & Gabbana",
+      "line": "K",
+      "type": "designer",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 70,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Cardamom", "Juniper"],
+        "heart": ["Sage"],
+        "base": ["Amber", "Sandalwood", "Musk"]
+      },
+      "accords": ["Spicy", "Woody", "Fresh", "Amber"],
+      "seasons": ["spring", "summer", "fall"],
+      "occasions": ["daytime", "office"],
+      "timeOfDay": ["day"],
+      "role": "Re-test — tried before but tastes evolved. Cardamom-led fresh-spicy.",
+      "notes_personal": "Previous test inconclusive. Worth retrying."
+    },
+
+    {
+      "id": 44,
+      "name": "Bulgari Man Wood Neroli",
+      "house": "Bulgari",
+      "line": "Man",
+      "type": "designer",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 75,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Neroli", "Bergamot"],
+        "heart": ["Cardamom", "Hedione"],
+        "base": ["Sandalwood", "Woody Musks"]
+      },
+      "accords": ["Neroli", "Woody", "Fresh", "Citrus", "Aromatic"],
+      "seasons": ["spring", "summer"],
+      "occasions": ["daytime", "office", "casual"],
+      "timeOfDay": ["day"],
+      "role": "Never tried. Neroli-cardamom-sandalwood. Very low street presence.",
+      "notes_personal": "Refined understated. Good summer daytime candidate."
+    },
+
+    {
+      "id": 45,
+      "name": "Prada L'Homme",
+      "house": "Prada",
+      "line": "L'Homme",
+      "type": "designer",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 95,
+      "size_ml": 100,
+      "streetRarity": "very_rare",
+      "rating": null,
+      "notes": {
+        "top": ["Bergamot"],
+        "heart": ["Iris", "Amber"],
+        "base": ["Cedar", "Vetiver"]
+      },
+      "accords": ["Iris", "Woody", "Clean", "Amber", "Refined"],
+      "seasons": ["spring", "summer", "fall"],
+      "occasions": ["office", "daytime", "smart_casual"],
+      "timeOfDay": ["day"],
+      "role": "Known among enthusiasts, rarely smelled on street. Office-perfect.",
+      "notes_personal": "Niche quality at designer price. Very rare on street."
+    },
+
+    {
+      "id": 46,
+      "name": "Fantastic Basilic",
+      "house": "Montale",
+      "line": null,
+      "type": "niche",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 85,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "notes": {
+        "top": ["Basil"],
+        "heart": ["Rose"],
+        "base": ["Cedar", "Musk"]
+      },
+      "accords": ["Herbal", "Basil", "Floral", "Woody"],
+      "seasons": ["spring", "summer"],
+      "occasions": ["daytime", "office"],
+      "timeOfDay": ["day"],
+      "role": "Herbal-basil niche. More intense than Hermès version.",
+      "notes_personal": "Caution: liked Hermès Basilic opening but drydown too herbal. Test carefully."
+    },
+
+    {
+      "id": 47,
+      "name": "Light Blue Pour Homme",
+      "house": "Dolce & Gabbana",
+      "line": "Light Blue",
+      "type": "designer",
+      "concentration": "EDT",
+      "status": "to_test",
+      "price_eur": 70,
+      "size_ml": 100,
+      "streetRarity": "common",
+      "rating": null,
+      "notes": {
+        "top": ["Grapefruit", "Bergamot", "Sicilian Mandarin"],
+        "heart": ["Juniper", "Rosewood"],
+        "base": ["Musk", "Oakmoss", "Incense"]
+      },
+      "accords": ["Fresh", "Citrus", "Woody", "Clean"],
+      "seasons": ["spring", "summer"],
+      "occasions": ["summer_casual", "daytime"],
+      "timeOfDay": ["day"],
+      "role": "Test last — very common on street. Low priority.",
+      "notes_personal": "Mediterranean fresh. High risk of smelling like others."
+    },
+
+    {
+      "id": 48,
+      "name": "Afnan PM9",
+      "house": "Afnan",
+      "line": null,
+      "type": "clone",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 30,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "cloneOf": "Jean Paul Gaultier Le Male Ultra",
+      "notes": {
+        "top": ["Apple", "Cinnamon", "Lavender", "Bergamot"],
+        "heart": ["Orange Blossom", "Lily of the Valley"],
+        "base": ["Vanilla", "Tonka Bean", "Amber", "Patchouli"]
+      },
+      "accords": ["Sweet", "Vanilla", "Fruity", "Spicy", "Gourmand"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["night_out", "dates"],
+      "timeOfDay": ["evening", "night"],
+      "role": "Clone of JPG Le Male Ultra. 85-95% accuracy. Budget rotation.",
+      "notes_personal": "Beast performance 8-12h+. Slightly sweeter than original."
+    },
+
+    {
+      "id": 49,
+      "name": "Liquid Brun",
+      "house": "French Avenue",
+      "line": null,
+      "type": "clone",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 35,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "cloneOf": "Parfums de Marly Althaïr",
+      "notes": {
+        "top": ["Cinnamon", "Bergamot", "Cardamom"],
+        "heart": ["Bourbon Vanilla", "Orange Blossom", "Elemi"],
+        "base": ["Praline", "Ambroxan", "Musk", "Guaiac Wood"]
+      },
+      "accords": ["Vanilla", "Praline", "Spicy", "Gourmand", "Warm"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["evenings", "dates"],
+      "timeOfDay": ["evening"],
+      "role": "Closest Althaïr clone. 90-99% similarity. High priority at €35.",
+      "notes_personal": "Already knows he likes Althaïr — this is the budget version."
+    },
+
+    {
+      "id": 50,
+      "name": "Liquid Brun Edición Limitada",
+      "house": "French Avenue",
+      "line": null,
+      "type": "clone",
+      "concentration": "EDP",
+      "status": "to_test",
+      "price_eur": 40,
+      "size_ml": 100,
+      "streetRarity": "rare",
+      "rating": null,
+      "cloneOf": "Parfums de Marly Althaïr (woodier version)",
+      "notes": {
+        "top": ["Cinnamon", "Bergamot", "Cardamom"],
+        "heart": ["Lavender", "Rose", "Bourbon Vanilla"],
+        "base": ["Oakmoss", "Praline", "Ambroxan", "Guaiac Wood"]
+      },
+      "accords": ["Vanilla", "Woody", "Floral", "Spicy", "Masculine"],
+      "seasons": ["fall", "winter"],
+      "occasions": ["evenings", "smart_casual"],
+      "timeOfDay": ["evening"],
+      "role": "2025 Limited Edition. More masculine and woody than original Liquid Brun.",
+      "notes_personal": "Try regular first, then decide on Limited Edition."
+    }
+  ],
+
+  "tasteProfile": {
+    "coreAccords": ["Tobacco (sweet/honeyed only)", "Vanilla", "Amber", "Tonka Bean", "Cardamom", "Sandalwood"],
+    "likes": ["warm", "addictive", "polished", "sexy", "confident", "slightly sweet", "rich without heavy", "texture and depth"],
+    "dislikes": ["smoky tobacco", "dry vetiver-heavy", "marine/aquatic", "ultra-fresh sporty", "harsh synthetic", "excessively sweet/cloying"],
+    "hardAvoids": ["smoky tobacco (Jazz Club type)", "marine aquatics (AdG Profondo type)", "overused/common scents"],
+    "collectionGaps": ["summer niche", "iris category", "leather note", "fig/green unique piece"],
+    "keyInsight": "Likes tobacco ONLY when sweet and honeyed (Naxos). Hates tobacco when dry/smoky/vetiver-heavy (Jazz Club).",
+    "oudInsight": "Likes oud when in sweet-caramel-saffron context (Eros Najim). Avoid dry/incense-heavy oud."
+  },
+
+  "collectionMap": {
+    "summer_office_daily": ["Dior Homme Sport (incoming)", "YSL Y Iced Cologne (testing)", "Emporio Armani (backup)", "Montblanc Legend (backup)", "Hugo Boss In Motion (backup)"],
+    "summer_daytime_weekends": ["Guerlain L'Homme Idéal Cologne Forte (considering)", "Burberry Weekend (owns, small bottle)"],
+    "spring_fall_daytime": ["Bleu de Chanel"],
+    "autumn_winter_casual_evening": ["Burberry London (incoming)", "Versace Eros Flame (incoming)", "D&G The One Parfum (incoming)"],
+    "evening_dates_niche": ["Xerjoff Naxos", "PDM Layton", "Kilian Angels Share Paradis (not owned yet)"],
+    "special_occasions": ["Baccarat Rouge 540"],
+    "gym_casual": ["Abercrombie Fierce", "Burberry Weekend"]
+  }
+}
