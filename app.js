@@ -523,10 +523,22 @@ async function loadData() {
 
 // ─── INIT ────────────────────────────────────────────────────
 function init() {
+  initTheme(); 
   loadFilters();
   syncFilterUI();
   attachEvents();
   loadData();
+}
+
+// ─── THEME TOGGLE ────────────────────────────────────────────
+function initTheme() {
+  const saved = localStorage.getItem('sillage_theme') ?? 'dark';
+  if (saved === 'light') document.body.classList.add('theme-light');
+
+  document.getElementById('themeToggle')?.addEventListener('click', () => {
+    const isLight = document.body.classList.toggle('theme-light');
+    localStorage.setItem('sillage_theme', isLight ? 'light' : 'dark');
+  });
 }
 
 document.addEventListener('DOMContentLoaded', init);
